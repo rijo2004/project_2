@@ -1,8 +1,10 @@
 *{
   margin: 0;
   padding: 0;
+}
 
-  
+body{
+  background-color: rgb(198, 213, 228);
 }
 
 
@@ -24,6 +26,7 @@ nav{
 
 nav img{
   width: 150px;
+  border: none;
 
 }
 
@@ -112,7 +115,7 @@ nav img{
 .key h1{
   font-size: 36px;
   font-weight: 500;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-right: 82px;
 }
 .row{
   margin-top: 5%;
@@ -134,11 +137,50 @@ h3{
   margin: 10px 0;
 }
 .key-col:hover{
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 0px rgba(5, 5, 5, 0.2);
 }
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height:37vh;
+padding-right: 65px;
+}
+
+
+img{
+    width: 200px;
+    border-bottom: 20px;
+    -webkit-box-reflect: below 2.5px
+    linear-gradient(transparent, transparent, rgba(3,3,3,0.2));
+    border: 3px ridge #103a63;
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+.card{
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.container:hover > :not(:hover){
+    opacity: 0.3;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+
+
 .how-it-works h2 {
   font-size: 33px;
   margin-bottom: 15px;
+  font-style:oblique;
  
 }
 
@@ -177,6 +219,21 @@ h3{
 .how-it-works{
   margin-left: 140px;
   font-size: 34px;
+  font-style: italic;
+}
+.ri{
+  padding-left: 67px;
+}
+.rj{
+  padding-left: 17px;
+}
+h1{
+  list-style-type: none;
+  margin-left: 15px;
+margin-left: 140px;
+  font-size: 34px;
+  padding-top: 40px;
+  font-style: oblique;
 }
 .footer {
  
