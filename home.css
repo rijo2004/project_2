@@ -27,6 +27,7 @@ nav{
 nav img{
   width: 150px;
   border: none;
+  border-radius: 0px;
 
 }
 
@@ -152,6 +153,7 @@ padding-right: 65px;
 img{
     width: 200px;
     border-bottom: 20px;
+    border-radius: 42px;
     -webkit-box-reflect: below 2.5px
     linear-gradient(transparent, transparent, rgba(3,3,3,0.2));
     border: 3px ridge #103a63;
@@ -164,6 +166,7 @@ img{
     transition: 0.5s ease;
     cursor: pointer;
     padding: 20px;
+    
 }
 
 .container:hover > :not(:hover){
